@@ -1,6 +1,8 @@
-from lyrics import get_lyrics
+
+
+from lyrics import get_lyrics_by_song_name
+
 
 if __name__ == "__main__":
-    # Artist = input("Enter the artist: ")
     Song = input("Enter the song: ")
-    get_lyrics(Song)    
+    get_lyrics_by_song_name(Song)  
